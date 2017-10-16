@@ -1,0 +1,88 @@
+scene
+	name		{Planes and Spheres}
+	camera		{0;0;-10}
+	lookat		{0;0;1}
+	upvec		{0;1;0}
+end
+
+light
+	translate		{0;0;8}
+	color			{1;1;1}
+end
+
+light
+	translate		{0;0;15}
+	color			{1;1;1}
+end
+
+light
+	translate		{0;0;25}
+	color			{1;1;1}
+end
+
+sphere
+	translate		{1;1;12}
+	color			{1;0.3;0.4}
+	material		{1;1;0.4}
+	radius			{0.3}
+end
+
+sphere
+	translate		{1;-1;12}
+	color			{1;0.3;0.4}
+	material		{1;1;0.4}
+	radius			{0.3}
+end
+
+sphere
+	translate		{-1;1;12}
+	color			{1;0.3;0.4}
+	material		{1;1;0.4}
+	radius			{0.3}
+end
+
+sphere
+	translate		{-1;-1;12}
+	color			{1;0.3;0.4}
+	material		{1;1;0.4}
+	radius			{0.3}
+end
+
+sphere
+	translate		{0;0;12}
+	color			{1;0.3;0.4}
+	material		{1;1;0.4}
+	radius			{0.8}
+end
+
+plane
+	translate		{0;-2;0}
+	rotate			{0;0;45}
+	color			{0.7;0.6;0.9}
+	material		{1;1;0.2}
+	normal			{0;1;0}
+end
+
+plane
+	translate		{0;-2;0}
+	rotate			{0;0;-45}
+	color			{0.7;0.6;0.9}
+	material		{1;1;0.2}
+	normal			{0;1;0}
+end
+
+plane
+	translate		{0;2;0}
+	rotate			{0;0;45}
+	color			{0.7;0.6;0.9}
+	material		{1;1;0.2}
+	normal			{0;1;0}
+end
+
+plane
+	translate		{0;2;0}
+	rotate			{0;0;-45}
+	color			{0.7;0.6;0.9}
+	material		{1;1;0.2}
+	normal			{0;1;0}
+end

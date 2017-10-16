@@ -1,0 +1,48 @@
+scene
+	name	{Simple Scene}
+	camera	{0;0;-10}
+	lookat	{0;0;1}
+	upvec	{0;1;0}
+end
+
+light
+	translate	{0;0;12}
+	color		{1;1;1}
+end
+
+light
+	translate	{4;0;15}
+	color		{1;1;1}
+end
+
+light
+	translate	{-4;0;15}
+	color		{1;1;1}
+end
+
+sphere
+	translate	{-2;0;15}
+	color		{1;0;0}
+	material	{1;1;0.2}
+	radius		{0.5}
+end
+
+cone
+	translate	{0;0;15}
+	color		{0;1;0}
+	material	{1;1;0.2}
+	radius		{0.5}
+end
+
+cylinder
+	translate	{2;0;15}
+	color		{0;0;1}
+	material	{1;1;0.2}
+	radius		{0.5}
+end
+
+plane
+	translate	{0;-2;0}
+	color		{1;1;1}
+	normal		{0;1;0}
+end

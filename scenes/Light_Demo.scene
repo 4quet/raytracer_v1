@@ -1,0 +1,42 @@
+scene
+	name	{Light Demo}
+	camera	{0;0;-10}
+	lookat	{0;0;1}
+	upvec	{0;1;0}
+end
+
+light
+	translate	{0;0;12}
+	color		{0.2;1;0.4}
+end
+
+light
+	translate	{3;2;14}
+	color		{0.9;0.3;0.1}
+end
+
+light
+	translate	{-3;-2;14}
+	color		{0.15;0.5;1}
+end
+
+sphere
+	translate	{-3;0;15}
+	color		{1;1;1}
+	material	{1;1;0.4}
+	radius		{0.7}
+end
+
+sphere
+	translate	{0;0;15}
+	color		{1;1;1}
+	material	{1;1;0.4}
+	radius		{0.7}
+end
+
+sphere
+	translate	{3;0;15}
+	color		{1;1;1}
+	material	{1;1;0.4}
+	radius		{0.7}
+end

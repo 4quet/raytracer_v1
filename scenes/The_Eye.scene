@@ -1,0 +1,42 @@
+scene
+	name		{The Eye}
+	camera		{0;0;-10}
+	lookat		{0;0;1}
+	upvec		{0;1;0}
+end
+
+light
+	translate		{3;1.5;10}
+	color			{1;1;1}
+end
+
+light
+	translate		{-2;-2;9}
+	color			{1;0.2;0.3}
+end
+
+light
+	translate		{3;-3;8}
+	color			{1;0.2;0.3}
+end
+
+sphere
+	translate		{0;0;12}
+	color			{1;1;1}
+	material		{1;1;0.4}
+	radius			{2}
+end
+
+sphere
+	translate		{0;0;10.5}
+	color			{0.3;0.7;0.8}
+	material		{1;0;0.4}
+	radius			{1}
+end
+
+sphere
+	translate		{0;0;9.5}
+	color			{0;0;0}
+	material		{1;1;0.4}
+	radius			{0.5}
+end
